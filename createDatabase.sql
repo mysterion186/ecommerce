@@ -1,0 +1,4 @@
+CREATE TABLE Article (idArticle INT NOT NULL PRIMARY KEY GENERATED ALWAYS AS IDENTITY(Start with 1, Increment by 1),nom VARCHAR (255),prix INT NOT NULL,photo_url VARCHAR (255) NOT NULL, description VARCHAR(1000) NOT NULL, categorie VARCHAR(50) NOT NULL);
+CREATE TABLE commande (idCommande INT NOT NULL PRIMARY KEY GENERATED ALWAYS AS IDENTITY (Start with 1, Increment by 1), idUser INT NOT NULL, prix INT NOT NULL, status VARCHAR(255) NOT NULL);
+CREATE TABLE commande_detail (idCommande_detail INT NOT NULL PRIMARY KEY GENERATED ALWAYS AS IDENTITY (Start with 1, Increment by 1), idArticle INT NOT NULL, idCommande INT NOT NULL, idUser INT NOT NULL);
+CREATE TABLE utilisateur (identifiant INT NOT NULL PRIMARY KEY GENERATED ALWAYS AS IDENTITY(Start with 1, Increment by 1),nom VARCHAR (255), prenom VARCHAR (255), email VARCHAR (255), password VARCHAR (255));
