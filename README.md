@@ -15,3 +15,30 @@ Voici l'ensemble des fichiers qui se trouvent dans le projet :
 
 Pour lancer les projets, il faut dans un premier temps créer la base de données (voir la section Résultats du projet dans le rapport). On a utilisé le logiciel ```NetBeans 8.2```. 
 Ensuite on peut simplement lancer le fichier index.jsp dans chaque version pour voir comment le site est conçu. 
+
+
+# Quelques images provenant du site
+
+![accueil](./.images/index_1.PNG)
+> voici la page d'accueil de notre site  
+
+
+![shop](./.images/shop_1.PNG)
+![shop](./.images/shop_2.PNG)
+> Voici la page contenant tous les articles de notre site web   
+ L'utilisateur aura aussi la possibilité de se créer un compte ou bien de s'inscrire 
+
+![connexion](./.images/connexion.PNG) 
+![inscription](./.images/inscription.PNG)  
+> voici les pages d'inscription et de connexion sur le site  
+
+   
+Bien sûr la navbar change en fonction du fait que l'utilisateur soit connecté ou non.
+![navbar connecté](./.images/navbar_connected.PNG)  
+![navbar déconnecté](./.images/navbar_disconnected.PNG)
+> voici la navbar selon que l'utilisateur soit connecté (affiche du bouton déconnexion) ou qu'il soit pat connecté (affiche du bouton connectez-vous)  
+
+Un utilisateur peut aussi ajouter des produits à son panier et valider ce dernier. 
+![panier](./.images/panier.PNG) 
+![validation](./.images/validation.PNG) 
+> voici les pages qui représente respectivement le panier et la page de validation
