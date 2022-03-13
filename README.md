@@ -1,11 +1,11 @@
 # ECOMMERCE
 
-Dans le cadre d'un cours ```Technologies Web avec JEE```, on a dû créer un site d'ecommerce dans versions différentes :  
+Dans le cadre d'un cours ```Technologies Web avec JEE```, on a dû créer un site d'ecommerce dans 3 versions différentes :  
 -  ```Mix Servlet/JSP```
 -  ```MVC 1 full JSP```
 -  ```MVC 2 Servlet```
 
-Il y a quelques problèmes lorsqu'on chercher à lancer le code en faisant un clone. Il faut utiliser les projets se trouvant dans le fichier ```3_versions.zip```. 
+Il y a quelques problèmes lorsqu'on cherche à lancer le code en faisant un `git clone`. Il faut utiliser les projets se trouvant dans le fichier ```3_versions.zip```. 
 
 Voici l'ensemble des fichiers qui se trouvent dans le projet :  
 -  3 projets NetBeans qui correspondent aux 3 versions réalisé (mvc_1_jsp, mvc_2_servlet,servlet_jsp) 
