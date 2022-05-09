@@ -41,4 +41,4 @@ Bien sûr la navbar change en fonction du fait que l'utilisateur soit connecté 
 Un utilisateur peut aussi ajouter des produits à son panier et valider ce dernier. 
 ![panier](./.images/panier.PNG) 
 ![validation](./.images/validation.PNG) 
-> voici les pages qui représente respectivement le panier et la page de validation
+> voici les pages qui représentent respectivement le panier et la page de validation
